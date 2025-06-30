@@ -1,0 +1,14 @@
+---
+layout: default
+title: Главная
+---
+
+{% for post in site.posts %}
+<article class="post">
+    <h2 class="post-title">{{ post.title }}</h2>
+    <div class="post-date">{{ post.date | date: "%d.%m.%Y" }}</div>
+    <div class="post-content">
+        {{ post.content }}
+    </div>
+</article>
+{% endfor %} 

@@ -1,0 +1,39 @@
+title: Мой блог
+description: Простой блог на Jekyll
+author: Автор
+email: author@example.com
+url: "https://username.github.io"
+baseurl: ""
+
+# Jekyll settings
+markdown: kramdown
+highlighter: rouge
+
+# Collections
+collections:
+  posts:
+    output: false
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+      author: "Автор"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/ 
