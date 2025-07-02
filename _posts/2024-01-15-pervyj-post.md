@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "my first try...
+title: "my second try..."
 date: 2025-07-02
 description: "///"
 ---
